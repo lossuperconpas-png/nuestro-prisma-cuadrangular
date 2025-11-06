@@ -3,72 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prisma Cuadrangular</title>
+    <title>Pirámide Cuadrangular</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        header { text-align: center; background-color: #007bff; color: white; padding: 20px; }
+        section { margin: 20px 0; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+        footer { text-align: center; margin-top: 20px; font-size: 0.9em; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>El Prisma Cuadrangular</h1>
-        <p>Un prisma cuadrangular es un sólido geométrico tridimensional formado por dos bases paralelas que son cuadriláteros (como rectángulos o cuadrados) y caras laterales que son paralelogramos. Es uno de los prismas más comunes y se encuentra en objetos cotidianos como cajas o ladrillos.</p>
-        
-        <h2>Características Principales</h2>
+    <header>
+        <h1>La Pirámide Cuadrangular</h1>
+        <p>Explorando la geometría de una figura fascinante</p>
+    </header>
+
+    <section id="definicion">
+        <h2>¿Qué es una Pirámide Cuadrangular?</h2>
+        <p>Una pirámide cuadrangular es un sólido geométrico formado por una base cuadrada y cuatro caras triangulares que convergen en un vértice común, llamado ápice. Es un tipo de pirámide regular si todas las caras laterales son triángulos equiláteros, pero puede ser irregular si no lo son.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Square_pyramid.svg/400px-Square_pyramid.svg.png" alt="Ilustración de una pirámide cuadrangular">
+        <p><em>Imagen: Representación gráfica de una pirámide cuadrangular (fuente: Wikimedia Commons).</em></p>
+    </section>
+
+    <section id="propiedades">
+        <h2>Propiedades Matemáticas</h2>
         <ul>
-            <li><strong>Bases:</strong> Dos polígonos cuadriláteros idénticos y paralelos.</li>
-            <li><strong>Caras laterales:</strong> Rectángulos o paralelogramos que conectan las bases.</li>
-            <li><strong>Aristas:</strong> 12 aristas en total (8 laterales y 4 en cada base).</li>
-            <li><strong>Vértices:</strong> 8 vértices.</li>
-            <li><strong>Volumen:</strong> Calculado como área de la base multiplicada por la altura (V = A_base × h).</li>
-            <li><strong>Área superficial:</strong> Suma de las áreas de las dos bases más las caras laterales.</li>
+            <li><strong>Caras:</strong> 5 (1 base cuadrada + 4 laterales triangulares).</li>
+            <li><strong>Aristas:</strong> 8 (4 en la base + 4 laterales).</li>
+            <li><strong>Vértices:</strong> 5 (4 en la base + 1 ápice).</li>
+            <li><strong>Volumen:</strong> Fórmula: \( V = \frac{1}{3} \times \text{área de la base} \times \text{altura} \). Para una base cuadrada de lado \( a \) y altura \( h \), \( V = \frac{a^2 h}{3} \).</li>
+            <li><strong>Área superficial:</strong> Área de la base + área de las caras laterales. Para una pirámide regular, \( A = a^2 + 2a \sqrt{\frac{a^2}{4} + h^2} \).</li>
         </ul>
-        
+        <p>Es un poliedro convexo y se usa en arquitectura (como las pirámides egipcias) y en modelado 3D.</p>
+    </section>
+
+    <section id="ejemplos">
         <h2>Ejemplos en la Vida Real</h2>
-        <p>El prisma cuadrangular aparece en objetos como:</p>
+        <p>
+            - Las pirámides de Egipto, como la de Keops, son aproximaciones a pirámides cuadrangulares.<br>
+            - En videojuegos y diseño gráfico, se usan para representar objetos simples.<br>
+            - En matemáticas, sirven para estudiar geometría sólida y cálculo de volúmenes.
+        </p>
+    </section>
+
+    <section id="recursos">
+        <h2>Recursos Adicionales</h2>
+        <p>Aprende más:</p>
         <ul>
-            <li>Cajas de cartón.</li>
-            <li>Ladrillos rectangulares.</li>
-            <li>Edificios con formas prismáticas.</li>
+            <li><a href="https://es.wikipedia.org/wiki/Pir%C3%A1mide_(geometr%C3%ADa)" target="_blank">Wikipedia: Pirámide en Geometría</a></li>
+            <li><a href="https://www.mathsisfun.com/geometry/pyramids.html" target="_blank">Math is Fun: Pirámides</a></li>
+            <li><a href="https://www.khanacademy.org/math/geometry/hs-geo-solids" target="_blank">Khan Academy: Sólidos Geométricos</a></li>
         </ul>
-        
-        <h2>Ilustración</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rectangular_prism.svg/400px-Rectangular_prism.svg.png" alt="Ilustración de un prisma cuadrangular (rectangular)">
-        <p>Imagen: Prisma rectangular (fuente: Wikimedia Commons).</p>
-        
-        <h2>Fórmulas Matemáticas</h2>
-        <p>Si la base es un rectángulo de largo <em>l</em> y ancho <em>w</em>, y altura <em>h</em>:</p>
-        <ul>
-            <li>Volumen: V = l × w × h</li>
-            <li>Área superficial: A = 2(lw + lh + wh)</li>
-        </ul>
-        
-        <p>Para más información, consulta recursos de geometría en línea o libros de matemáticas.</p>
-    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Página sobre Pirámide Cuadrangular. Información basada en conocimientos matemáticos estándar.</p>
+    </footer>
 </body>
 </html>
